@@ -1,8 +1,14 @@
+
+
+// selecting dom elements
 const form = document.querySelector("form");
 const input = document.getElementById("input");
 const taskCount = document.getElementById("task-count");
 const todos = document.getElementById("todos");
 var cnt = 0;
+
+
+// event listener on form
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
